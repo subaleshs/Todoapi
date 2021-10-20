@@ -1,0 +1,15 @@
+# class listTodo(mixins.RetrieveModelMixin,generics.GenericAPIView):
+#     authentication_classes = [TokenAuthentication]
+#     permission_classes = [IsAuthenticated]
+
+    
+#     queryset = todo.objects.all()
+#     serializer_class = todoSerializer
+
+#     def get(self,request):
+#         pk = request.user.id
+#         return self.retrieve(request,pk)
+
+
+ # tokens = request.headers['Authorization'][6:]
+        # us = Token.objects.get(key=tokens).user
