@@ -31,7 +31,7 @@ if os.path.isfile(envFile):
     dotenv.load_dotenv(envFile)
 SECRET_KEY = os.environ['SECRET_KEY']
 
-# SECRET_KEY = 'django-insecure-6kne6-93jemk*vd=6j8#!=2++2)dd=6kbm@n-1v3f6bc5g^z%='
+
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
